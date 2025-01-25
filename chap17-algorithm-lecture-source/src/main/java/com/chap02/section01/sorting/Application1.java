@@ -82,12 +82,12 @@ public class Application1 {
 
     // 설명. 버블 정렬 알고리즘
     // 시간복잡도. O(n^2)
-    private static void solution(int length, int[] arr) {
+    public static void solution(int length, int[] arr) {
         for (int i = 0; i < length - 1; i++) {
             System.out.println((i + 1) + "번째 순회: " + Arrays.toString(arr));
             for (int j = 0; j < length - 1 - i; j++) {
-//                if (arr[j] > arr[j + 1]) {    // 오름차순
-                if (arr[j] < arr[j + 1]) {  // 내림차순
+                if (arr[j] > arr[j + 1]) {    // 오름차순
+//                if (arr[j] < arr[j + 1]) {  // 내림차순
 
                     // 설명. j번째와 그 다임은 j+1번째의 위치를 서로 바꾼다.(swap)
                     int temp = arr[j];
