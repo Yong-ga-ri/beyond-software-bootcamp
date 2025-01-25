@@ -1,5 +1,4 @@
-package main.java.com.chap01.section01.timecomplexity;
-
+package com.chap01.section01.timecomplexity;
 
 import java.util.Arrays;
 
